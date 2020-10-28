@@ -1,4 +1,14 @@
+@font-face {
+  font-family: "Slabo";
+  /* src: url("./Slabo.woff2") format("woff2"), url("./Slabo.woff") format("woff"); */
+  src: url("./Slabo.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
 .hello {
   color: red;
   background: url("./heart.png");
+  font-family: "Slabo";
+  font-size: 27px;
 }
